@@ -30,8 +30,6 @@ func main() {
 	path, err := os.Getwd()
 	check(err)
 
-	fmt.Println(path)
-
 	switch command {
 	case "component", "c":
 		componentName := args[1]
